@@ -12,6 +12,7 @@
 		D7C7B7ED1EB6340D00AECD14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C7B7EB1EB6340D00AECD14 /* Main.storyboard */; };
 		D7C7B7EF1EB6340D00AECD14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C7B7EE1EB6340D00AECD14 /* Assets.xcassets */; };
 		D7C7B7F21EB6340D00AECD14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C7B7F01EB6340D00AECD14 /* LaunchScreen.storyboard */; };
+		D7C7B7FB1EB634B900AECD14 /* dorin-vancea-83926.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7C7B7FA1EB634B900AECD14 /* dorin-vancea-83926.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D7C7B7EE1EB6340D00AECD14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7C7B7F11EB6340D00AECD14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7C7B7F31EB6340D00AECD14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C7B7FA1EB634B900AECD14 /* dorin-vancea-83926.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dorin-vancea-83926.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D7C7B7E61EB6340D00AECD14 /* WhatsMyWeather */ = {
 			isa = PBXGroup;
 			children = (
+				D7C7B7F91EB6348700AECD14 /* Images */,
 				D7C7B7E71EB6340D00AECD14 /* AppDelegate.swift */,
 				D7C7B7E91EB6340D00AECD14 /* ViewController.swift */,
 				D7C7B7EB1EB6340D00AECD14 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				D7C7B7F31EB6340D00AECD14 /* Info.plist */,
 			);
 			path = WhatsMyWeather;
+			sourceTree = "<group>";
+		};
+		D7C7B7F91EB6348700AECD14 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D7C7B7FA1EB634B900AECD14 /* dorin-vancea-83926.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C7B7F21EB6340D00AECD14 /* LaunchScreen.storyboard in Resources */,
+				D7C7B7FB1EB634B900AECD14 /* dorin-vancea-83926.jpg in Resources */,
 				D7C7B7EF1EB6340D00AECD14 /* Assets.xcassets in Resources */,
 				D7C7B7ED1EB6340D00AECD14 /* Main.storyboard in Resources */,
 			);
